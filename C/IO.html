@@ -1,0 +1,211 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <title>C Last Night Notes</title>
+  <link rel="stylesheet" type="text/css" href="../C.css">
+
+
+</head>
+<body >
+
+   <!-- top navigation -->
+
+  <div class="topheader"> <h1 > Last Night Notes<br></h1></div>
+
+
+
+  <header>
+    <div class="topnav">
+  
+
+    <a  href="../Lastnightnotes.html">Home</a>
+  <a class="active"  href="../C/Introduction.html">C Language</a>
+  <a href="../C++/Introduction.html"> C++ </a>
+  <a href="../Java/Introduction.html">Java</a>
+  <a href="../Python/Introduction.html">Python</a>
+  <a href="../OS/Introduction.html">Operating System</a>
+  <a href="../DBMS/Introduction.html">DBMS</a>
+  <a href="../Compiler/Introduction.html"> Compiler design</a>
+
+  <input type="text" placeholder="search.." >
+</div>
+
+  </header>
+
+<!-- Sidebar-->
+    
+
+<!-- ----------------------------------------------------------------------------------------->
+<br>
+
+<div class="sidebar">
+
+  <a  href="Introduction.html">Introduction</a>
+  <a href="compilation.html">Compilation</a>
+
+  <a class="active" href="IO.html">Input/Output</a>
+  <a href="datatype.html">Data Type</a>
+ 
+<a href="#datatype">Datataype</a>
+  <a href="#functions">Functions</a>
+  <a href="#pointers">Pointers</a>
+
+  <a href="#datatype">Datataype</a>
+  <a href="#functions">Functions</a>
+  <a href="#pointers">Pointers</a>
+
+  <a href="#datatype">Datataype</a>
+  <a href="#functions">Functions</a>
+  <a href="#pointers">Pointers</a>
+
+
+  <a href="#datatype">Datataype</a>
+  <a href="#functions">Functions</a>
+  <a href="#pointers">Pointers</a>
+
+
+  <a href="#datatype">Datataype</a>
+  <a href="#functions">Functions</a>
+  <a href="#pointers">Pointers</a>
+
+</div>
+  
+<!-----------------------------content of page----------------------------->
+
+
+<div class="content" style="background-color: white; height: 100%;">
+
+  <h1 >Input Output</h1>
+  <p>Those methods by which we can take input from the user and give output on the console is called Input / output functions </p>
+  
+  <h1>Printf();</h1>
+  <p>As you remember from your first code, Printf is use to print on the console. It can be use to print a string (Stream of line ) or numbers. Let us see it as an example</p>
+  <div class="Code">
+     <p>
+              #include &lt;stdio.h&gt;<stdio .h="">
+       
+           <p>int main(){<br>
+
+            <p><span style="color: blue;">printf</span>("This site is best to learn");</p>
+           <p>
+         }<br>
+     </p>
+  </div>
+
+  <p>Output: This site is best to learn</p>
+
+
+  <h1>scanf();</h1>
+  <p>Scanf is use to take the input from the users, but before taking input you have to specify which type of input will you are going to take and where will you store it </p>
+
+  <p>scanf("type of input", memory addres where u store);</p>
+
+  <p> example :-  scanf("%d",&a);</p>
+
+  <div class="Code">
+     <p>
+      
+       #include &lt;stdio.h&gt;<stdio .h="">
+           <p>int main(){<br>
+            <p>int a; <span style="color: grey;">//creating an integer container to store number</span> </p> 
+
+            <p><span style="color: blue;">scanf</span>("%d",&a); <span style="color: grey;">//taking input</span></p>
+            <p><span style="color: blue;">printf</span>("%d",a); <span style="color: grey;">//printing output</span></p>
+           <p>
+         }<br>
+     </p>
+  </div>
+  <p>Input: 35 <br>Output:35</p>
+  
+  <p>We can take multiple inputs at one time<br>format of scanf: scanf("%d%d",&a,&b);<br>it will take 2 input integer and store it in a and b</p>
+  <h1>Make a calculator</h1>
+  <p>we will make a calculator where we will get 2 input number and we will add  subtract multiply and divide them</p>
+  
+  <div class="Code">
+     <p>
+       
+       #include &lt;stdio.h&gt;<stdio .h="">
+           <p>int main(){<br>
+            <p>int a,b; <span style="color: grey;">//creating an integer container to store number</span> </p> 
+
+            <p><span style="color: blue;">scanf</span>("%d%d",&a,&b); <span style="color: grey;">//taking input</span></p>
+
+            <p><span style="color: blue;">printf</span>(" addition of a and b is %d \n",a+b); <span style="color: grey;">//printing a+b</span></p>
+            <p><span style="color: blue;">printf</span>(" subtraction of a and b is %d  \n",a-b); <span style="color: grey;">//printing a-b</span></p>
+              <p><span style="color: blue;">printf</span>(" multiplication of a and b is %d  \n",a*b); <span style="color: grey;">//printing a*b</span></p>
+            <p><span style="color: blue;">printf</span>(" divison of a and b is %d \n",a/b); <span style="color: grey;">//printing a/b</span></p>
+           
+         <p>}</p>
+
+
+     </p>
+  </div>
+
+
+   
+</div>
+
+
+
+
+
+
+<!--------------------------------------------------------------------footer------------------------------------------------>
+
+
+     <footer class="foot">
+      <p>foooter</p>
+
+
+       <h1 style="text-align: center;">About us</h1>
+       <p style="text-align: center;">Last Night Notes is a very nice way for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using Last Night Notes, you agree to have read and accepted our terms of use, cookie and privacy policy
+</p>
+       
+       <br>
+
+
+
+
+
+       <a href="#report error" style="left: 0;"> Report error</a>
+       <a href="#forum">Forum</a>
+       <a href="#about">About</a>
+       <a href="#shop">Shop</a>
+
+
+    <h2 style="text-align: center; color: red;">popular tutorial</h2>
+<br><br><br>
+
+       <p style="text-align: center;">Copyright 1999-2021 by Refsnes Data. All Rights Reserved.
+W3Schools is Powered by W3.CSS.</p>
+<p style="text-align: center;">E mail:- Lastnightnotes@gmail.com</p>
+
+    </footer>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

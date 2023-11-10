@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<title>C Last Night Notes</title>
+	<link rel="stylesheet" type="text/css" href="../C.css">
+
+
+</head>
+<body >
+
+   <!-- top navigation -->
+
+	<div class="topheader"> <h1 > Last Night Notes<br></h1></div>
+
+
+
+  <header>
+    <div class="topnav">
+  
+
+    <a  href="../Lastnightnotes.html">Home</a>
+  <a class="active"  href="../C/Introduction.html">C Language</a>
+  <a href="../C++/Introduction.html"> C++ </a>
+  <a href="../Java/Introduction.html">Java</a>
+  <a href="../Python/Introduction.html">Python</a>
+  <a href="../OS/Introduction.html">Operating System</a>
+  <a href="../DBMS/Introduction.html">DBMS</a>
+  <a href="../Compiler/Introduction.html"> Compiler design</a>
+
+  <input type="text" placeholder="search.." >
+</div>
+
+  </header>
+
+<!-- Sidebar-->
+    
+
+<!-- ----------------------------------------------------------------------------------------->
+<br>
+
+<div class="sidebar">
+
+	<a class="active" href="#Introduction">Introduction</a>
+  <a  href="compilation.html">Compilation</a>
+
+	<a href="IO.html">Input/Output</a>
+    <a href="datatype.html">Datataype</a>
+	<a href="#pointers">Pointers</a>
+ 
+<a href="#datatype">Datataype</a>
+	<a href="#functions">Functions</a>
+	<a href="#pointers">Pointers</a>
+
+	<a href="#datatype">Datataype</a>
+	<a href="#functions">Functions</a>
+	<a href="#pointers">Pointers</a>
+
+	<a href="#datatype">Datataype</a>
+	<a href="#functions">Functions</a>
+	<a href="#pointers">Pointers</a>
+
+
+	<a href="#datatype">Datataype</a>
+	<a href="#functions">Functions</a>
+	<a href="#pointers">Pointers</a>
+
+
+	<a href="#datatype">Datataype</a>
+	<a href="#functions">Functions</a>
+	<a href="#pointers">Pointers</a>
+
+</div>
+  
+<!-----------------------------content of page----------------------------->
+
+
+<div class="content" style="background-color: white; height: 100%;">
+
+  <h1 >Introduction to C Language</h1>
+<img src="Dennis.jpeg" alt="denis" style=" float: right; height: 300px;width: 300px;">
+
+  <p >C Language is one on the popular programming language developed by Dennis Ritchie. It wa build to write  Operating systems  It is consider as a base for other languages. Many language syntax liks Java PHP Javascript are based on C language. C++ is an extension of C. <br>There are 3 level of languages  </p>
+  
+
+  <ol> 
+    <li>Low level language</li>
+    <li>mid level language</li>
+    <li>High level language</li>
+
+
+   </ol>
+
+
+   <p>C is a mid level language because it has the property of both high level lngauges and low level languages</p>
+    <p>
+    	    	
+    	
+    </p>
+
+
+     <img src="Dia1.png" alt="denis" style=" float: right; height: ">
+
+     <h1>Features of C language</h1>
+
+    <ol>
+      <li>Easy</li>
+      <li>Fast</li>
+      <li>Popular</li>
+      <li>Structured</li>
+      <li>pointer</li>
+      <li>Recursion</li>
+    </ol>
+    <p>C is Very easy to learn because its syntax is easy and short. It is fast because there is less building functions. While it was a very fundamenta programming language thats why it is still popular world wide and taught as the first programming lagnuage in many universities</p>
+    <p>C is a structured language which means it contains functions to do some specific tasks. </p>
+    <p>Pointer is a way to deal with memory drectly. (You will learn about it later)</p>
+
+   
+   <h1>First Program</h1>
+    
+    <div  class="Code">
+
+         <p>
+            #include &lt;stdio.h&gt;<stdio .h=""><br>
+           int main(){<br>
+           printf("Hello world");<br>
+         }<br>
+         </p>
+      
+    </div> 
+
+     <p>Output : Hello world</p>
+
+     
+    <p>Congratulations! you have written your first code in C language. <br> Now let us understand line By line which line does what </p>
+    <p>first line #include< stdio.h >  is called preprocessor directive. Basically to run your program there is some more code is necessary to be added in your code. That code is added by the preprocessors automatically </p> <p>Next line which has int main() tells that our main program starts from here. </p>
+    <p> printf("Hellow world");  printf(); function is use to print something on your console;</p>
+    <h1>Basics of C</h1>
+    <p>Every language has some basic elements and grammatical rules. Before understanding programming,
+ is must to know the basic elements of C language.</p>
+  <h2 >Character Set</h2>
+     <p>All alphabets A to Z and a to z can be use in C <br>all digits 0,1,2,3,4,5,6,7,8,9 can be use in C.</p>
+     <table style="bor">
+       <tr>
+         <th>Character</th>
+         <th>Meaning</th>
+         <th>Charachter</th>
+         <th>Meaning</th>
+       </tr>
+       <tr>
+         <td>+</td>
+         <td>Plus sign</td>
+         <td>-</td>
+         <td>Minus sign</td>
+
+       </tr>
+            <tr>
+         <td>*</td>
+         <td>Asteric</td>
+         <td>%</td>
+         <td>percent sign</td>
+
+       </tr>
+            <tr>
+         <td>\</td>
+         <td>backward slash</td>
+         <td>/</td>
+         <td>forward slash</td>
+
+       </tr>
+            <tr>
+         <td><</td>
+         <td>less than</td>
+         <td>></td>
+         <td>greater than</td>
+
+       </tr>
+            <tr>
+         <td>,</td>
+         <td>Comma</td>
+         <td>;</td>
+         <td>Semicolon</td>
+
+       </tr>
+            <tr>
+         <td>@</td>
+         <td>at the rate</td>
+         <td>#</td>
+         <td>hash sign</td>
+
+       </tr>
+            <tr>
+         <td>$</td>
+         <td>dollar</td>
+         <td>&</td>
+         <td>Ampersand</td>
+
+       </tr>
+            <tr>
+         <td>!</td>
+         <td>Exclamation</td>
+         <td>^</td>
+         <td>caret sign</td>
+
+       </tr>
+            <tr>
+         <td>?</td>
+         <td>Question mark</td>
+         <td>""</td>
+         <td>Double quote</td>
+
+       </tr>
+            <tr>
+         <td>''</td>
+         <td>Single Quote</td>
+         <td>~</td>
+         <td>tidal sign</td>
+
+       </tr>
+       
+     </table>
+
+
+     <h1>Escape Sequences</h1>
+      <p>Escape sequencs are some special characters which are used to make some special tasks in our code</p>
+       <p>\n - Backshals n   use to break line in the code <br>\a - bell alert   produces a beep <br>\f - form feed  Moves the cursor to beginning of the current line <br>\0 - null <br> \v - verticle tab Moves the cursor to the beginning of the next line <br> \t  - Horizontal tab <br>\\ - backslash Presents a character with backslash ( \ ) </p>
+
+
+       <div  class="Code">
+
+         <p>
+            #include &lt;stdio.h&gt;<stdio .h=""><br>
+           int main(){<br>
+           printf("Hello world <span>\n</span>");<br>
+             
+         }<br>
+         </p>
+      
+    </div> 
+       
+</div> 
+
+
+
+
+
+
+<!--------------------------------------------------------------------footer------------------------------------------------>
+
+
+     <footer class="foot">
+    	<p>foooter</p>
+
+
+       <h1 style="text-align: center;">About us</h1>
+       <p style="text-align: center;">Last Night Notes is a very nice way for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using Last Night Notes, you agree to have read and accepted our terms of use, cookie and privacy policy
+</p>
+       
+       <br>
+
+
+
+
+
+       <a href="#report error" style="left: 0;"> Report error</a>
+       <a href="#forum">Forum</a>
+       <a href="#about">About</a>
+       <a href="#shop">Shop</a>
+
+
+    <h2 style="text-align: center; color: red;">popular tutorial</h2>
+<br><br><br>
+
+       <p style="text-align: center;">Copyright 1999-2021 by Refsnes Data. All Rights Reserved.
+W3Schools is Powered by W3.CSS.</p>
+<p style="text-align: center;">E mail:- Lastnightnotes@gmail.com</p>
+
+    </footer>
+
+
+
+</body>
+</html>
